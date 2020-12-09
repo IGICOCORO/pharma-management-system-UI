@@ -13,10 +13,8 @@
                             <label form="email" class="input-label">Password</label>
                             <input type="password" class="form-control" placeholder="password">
                         </div>
-                         <div class="form-group">
-                            <button-tab>
-                              <button class="btn btn-primary" @click="login">Login</button>
-                            </button-tab>
+                         <div class="form-group d-flex justify-content-center">
+                              <button class="btn btn-primary w-25" @click="login">Login</button>
                         </div>
 
                     </form>
