@@ -83,6 +83,9 @@ export default {
 </script>
 
 <style lang="scss">
+label {
+  font-family: "Kaushan Script", cursive;
+}
 h1 {
   text-align: center;
   font-family: "Kaushan Script", cursive;
@@ -105,7 +108,7 @@ fieldset {
   max-width: 500px;
 }
 button {
-  border-radius: 50%;
+  border-radius: 50px;
 }
 .widget {
   margin: 0;
