@@ -34,13 +34,15 @@
               </div>
               <br />
               <div class="form-group d-flex justify-content-center">
-                <button
-                  class="btn btn-primary btn-lg btn-block"
-                  @click="login"
-                  v-if="!isLoggingIn"
-                >
-                  Login
-                </button>
+                <router-link to="/home">
+                  <button
+                    class="btn btn-primary btn-lg btn-block"
+                    @click="login"
+                    v-if="!isLoggingIn"
+                  >
+                    Login
+                  </button>
+                </router-link>
                 <button
                   class="btn btn-primary btn-lg btn-block"
                   disabled
@@ -106,9 +108,10 @@ fieldset {
   border-radius: 1.1rem;
   outline: 0;
   max-width: 500px;
+  box-shadow: 5px 1px 1px #0078ff;
 }
 button {
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .widget {
   margin: 0;
