@@ -4,14 +4,6 @@
     <div class="row justify-content-center">
       <div class="col-lg-3">
         <div class="login-panel bg-white text-left">
-          <div
-            class="alert alert-primary"
-            role="alert"
-            :style="{ opacity: isAlertShow ? 1 : 0 }"
-          >
-            Login successful. <small> waiting for redirect.</small>
-            <loading width="30"></loading>
-          </div>
           <fieldset>
             <h1 class="display-3 font-weight-bold">Login</h1>
             <hr />

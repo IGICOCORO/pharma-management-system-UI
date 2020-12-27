@@ -3,13 +3,13 @@
     <Navbar />
     <br />
     <br />
-    <Content />
+    <Dashboard />
   </div>
 </template>
 <script>
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
-import Content from "@/components/Content.vue";
+import Dashboard from "@/components/Dashboard.vue";
 
 export default {
   name: "home",
@@ -17,7 +17,7 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     Navbar,
     // eslint-disable-next-line vue/no-unused-components
-    Content,
+    Dashboard,
   },
 };
 </script>
