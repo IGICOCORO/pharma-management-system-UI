@@ -1,23 +1,19 @@
 <template>
   <div class="home">
-    <Navbar />
     <br />
     <br />
-    <Dashboard />
+    <Sidebar />
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import Navbar from "@/components/Navbar.vue";
-import Dashboard from "@/components/Dashboard.vue";
+import Sidebar from "@/components/Sidebar.vue";
 
 export default {
   name: "home",
   components: {
     // eslint-disable-next-line vue/no-unused-components
-    Navbar,
-    // eslint-disable-next-line vue/no-unused-components
-    Dashboard,
+    Sidebar,
   },
 };
 </script>

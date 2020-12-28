@@ -1,30 +1,22 @@
-
 <template>
   <div>
-   
+    <table class="table">
+      <thead class="table-dark"></thead>
+      <tbody></tbody>
+    </table>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'View_stock',
-  created() {
-
-  },
+  name: "View_stock",
+  created() {},
   data() {
-    return {
-    }
+    return {};
   },
-  props: {
-   
-  },
-  methods: {
-   
-  },
-}
+  props: {},
+  methods: {},
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
-
+<style lang="scss" scoped></style>
