@@ -1,30 +1,17 @@
-
 <template>
-  <div>
-   
-  </div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'Add_medecine',
-  created() {
-
-  },
+  name: "Add_medecine",
+  created() {},
   data() {
-    return {
-    }
+    return {};
   },
-  props: {
-   
-  },
-  methods: {
-   
-  },
-}
+  props: {},
+  methods: {},
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
-
+<style lang="scss" scoped></style>

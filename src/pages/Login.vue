@@ -27,21 +27,10 @@
               <br />
               <div class="form-group d-flex justify-content-center">
                 <router-link to="/home">
-                  <button
-                    class="btn btn-primary btn-lg btn-block"
-                    @click="login"
-                    v-if="!isLoggingIn"
-                  >
+                  <button class="btn btn-primary btn-lg btn-block">
                     Login
                   </button>
                 </router-link>
-                <button
-                  class="btn btn-primary btn-lg btn-block"
-                  disabled
-                  v-if="isLoggingIn"
-                >
-                  <loading width="30"></loading>
-                </button>
               </div>
             </form>
           </fieldset>
@@ -52,27 +41,11 @@
 </template>
 
 <script>
-import loading from "../components/Loading.vue";
 export default {
-  components: { loading },
   data() {
-    return {
-      isLoggingIn: false,
-      isAlertShow: false,
-    };
+    return {};
   },
-  methods: {
-    login() {
-      this.isLoggingIn = true;
-      var self = this;
-      setTimeout(function() {
-        self.isLoggingIn = false;
-      }, 2000);
-    },
-    redirect() {
-      this.router.push({ name: "home" });
-    },
-  },
+  methods: {},
 };
 </script>
 

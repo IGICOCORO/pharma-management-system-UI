@@ -1,30 +1,17 @@
-
 <template>
-  <div>
-   
-  </div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'New_sell',
-  created() {
-
-  },
+  name: "New_sell",
+  created() {},
   data() {
-    return {
-    }
+    return {};
   },
-  props: {
-   
-  },
-  methods: {
-   
-  },
-}
+  props: {},
+  methods: {},
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
-
+<style lang="scss" scoped></style>
