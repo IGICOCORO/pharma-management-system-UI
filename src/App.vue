@@ -1,24 +1,34 @@
 <template>
-   <div id="body">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div class="main" v-if="logged_in">
-      <NavBar/>
-      <router-view/>
-      <div class="loggout" @click="loggout">
-        <fa icon="power-off" />
-      </div>
+  <div id="app">
+    <div v-if="logged_in">
+        <SideBar/>
+        <TopBar/>
+        <router-view />
     </div>
     <div v-else>
-      <Login/>
+      <Login @connected="performLogin"/>
     </div>
   </div>
 </template>
 <script>
-export default {
- import Navbar from '@/components/Navbar'
-}
+  import SideBar from './components/Sidebar.vue'
+  import TopBar from './components/TopBar.vue'
+  import Login from './components/Login'
+  export default  {
+    components: { SideBar, TopBar, Login},
+    data(){
+      return {
+        logged_in:false
+      }
+    },
+    methods:{
+      performLogin(user){
+        console.log(user)
+        this.logged_in=true;
+      }
+    }
+  };
 </script>
-
 <style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -28,16 +38,4 @@ export default {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
