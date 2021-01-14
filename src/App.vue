@@ -1,10 +1,25 @@
 <template>
-  <div id="app">
-    <router-view />
+   <div id="body">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="main" v-if="logged_in">
+      <NavBar/>
+      <router-view/>
+      <div class="loggout" @click="loggout">
+        <fa icon="power-off" />
+      </div>
+    </div>
+    <div v-else>
+      <Login/>
+    </div>
   </div>
 </template>
+<script>
+export default {
+ import Navbar from '@/components/Navbar'
+}
+</script>
 
-<style lang="scss">
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
