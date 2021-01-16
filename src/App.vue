@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <div v-if="logged_in">
+     <div class="main" v-if="logged_in">
         <SideBar/>
         <TopBar/>
         <router-view />
-    </div>
-    <div v-else>
+         <div class="loggout" @click="loggout">
+        <fa icon="power-off" />
+      </div>
+   </div>
+  </div>
+   <div v-else>
       <Login @connected="performLogin"/>
     </div>
-  </div>
 </template>
 <script>
   import SideBar from './components/Sidebar.vue'

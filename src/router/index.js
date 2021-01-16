@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Dashboard from "../pages/Dashboard.vue";
+import Login from "../components/Login.vue";
 import Medicament from "../pages/Medicament.vue";
 import Vente from "../pages/Vente.vue";
 import Achat from "../pages/Achat.vue";
@@ -10,6 +11,7 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: "/",name: "dashboard", component: Dashboard, },
+  { path: "/login",name: "login", component: Login, },
   { path: "/medicament",name: "medicament", component: Medicament, },
   { path: "/vente",name: "vente", component: Vente, },
   { path: "/achat",name: "achat", component: Achat, },

@@ -4,7 +4,14 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+ <ul class="nav nav-pills">
+  ...
+  <li role="presentation" class="dropdown">
+    <router-link class="glyphicon glyphicon-off" data-toggle="dropdown" to="/login" aria-haspopup="true" aria-expanded="true" style="font-size:20px;"> 
+    </router-link>
+  </li>
+  ...
+</ul>
         </ul>
       </div>
     </nav>

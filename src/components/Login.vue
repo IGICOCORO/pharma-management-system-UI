@@ -54,7 +54,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped>
 label {
   font-family: "Kaushan Script", cursive;
 }
@@ -85,7 +85,7 @@ fieldset {
   box-shadow: 5px 1px 1px #0078ff;
 }
 button {
-  border-radius: 50%;
+  border-radius: 5%;
 }
 .widget {
   margin: 0;
