@@ -8,10 +8,11 @@
         <fa icon="power-off" />
       </div>
    </div>
-  </div>
    <div v-else>
       <Login @connected="performLogin"/>
     </div>
+  </div>
+   
 </template>
 <script>
   import SideBar from './components/Sidebar.vue'
@@ -28,6 +29,11 @@
       performLogin(user){
         console.log(user)
         this.logged_in=true;
+      },
+      logout(){
+        if (confirm("Vous etes sur de vouloir vous deconnecter?")) {
+          this.logged_in=true
+        }
       }
     }
   };

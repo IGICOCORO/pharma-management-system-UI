@@ -6,16 +6,16 @@
           <router-link to="/"> <i class="glyphicon glyphicon-dashboard"></i> Dashboard</router-link>
         </li>
          <li>
-          <router-link to="/medicament"> <i class="glyphicon glyphicon-pills"></i> Medicaments </router-link>
+          <router-link to="medicament"> <i class="glyphicon glyphicon-pills"></i> Medicaments </router-link>
         </li>
          <li>
            <router-link to="vente"> <i class="glyphicon glyphicon-usd"></i> Ventes </router-link>
         </li>
          <li>
-           <router-link to="/achat"> <i class="glyphicon glyphicon-shopping-cart"></i> Achats </router-link>
+           <router-link to="achat"> <i class="glyphicon glyphicon-shopping-cart"></i> Achats </router-link>
         </li>
          <li>
-           <router-link to="/mutualite"> <i class="fa fa-dashboard fa-lg"></i> Mutualité </router-link>
+           <router-link to="mutualite"> <i class="fa fa-dashboard fa-lg"></i> Mutualité </router-link>
         </li>
       
     </div>
