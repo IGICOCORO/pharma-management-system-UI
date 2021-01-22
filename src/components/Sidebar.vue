@@ -1,21 +1,23 @@
 <template>
   <div class="nav-side-menu">
-    <div class="brand"><h1> Pharmacy</h1></div>
-    <div class="menu-list">
+    <div class="menu-list" style="padding-top:70px;">
         <li>
-          <router-link to="/"> <i class="glyphicon glyphicon-dashboard"></i> Dashboard</router-link>
+          <router-link to="/"><div class="icons"><i class="fas fa-tachometer-alt"></i></div>  Dashboard</router-link>
         </li>
          <li>
-          <router-link to="medicament"> <i class="glyphicon glyphicon-pills"></i> Medicaments </router-link>
+          <router-link to="/medicament"> <div class="icons"><i class="fas fa-capsules"></i> </div> Medicaments </router-link>
         </li>
          <li>
-           <router-link to="vente"> <i class="glyphicon glyphicon-usd"></i> Ventes </router-link>
+           <router-link to="/vente"><div class="icons"><i class="fas fa-dollar-sign"></i></div>Ventes </router-link>
         </li>
          <li>
-           <router-link to="achat"> <i class="glyphicon glyphicon-shopping-cart"></i> Achats </router-link>
+           <router-link to="/achat"> <div class="icons"><i class="fas fa-cart-arrow-down"></i></div>  Achats </router-link>
         </li>
          <li>
-           <router-link to="mutualite"> <i class="fa fa-dashboard fa-lg"></i> Mutualité </router-link>
+           <router-link to="/mutualite"><div class="icons"><i class="fas fa-first-aid"></i> </div>  Mutualité </router-link>
+        </li>
+          <li>
+           <router-link to="/fournisseur"><div class="icons"><i class="fas fa-dolly"></i> </div>  Fournisseur </router-link>
         </li>
       
     </div>
@@ -35,6 +37,9 @@ export default {
 </script>
 
 <style scoped>
+.icons{
+  
+}
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;

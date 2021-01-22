@@ -4,8 +4,7 @@
         <SideBar/>
         <TopBar/>
         <router-view />
-         <div class="loggout" @click="loggout">
-        <fa icon="power-off" />
+         <div class="loggout" @click="logout">
       </div>
    </div>
    <div v-else>

@@ -4,7 +4,7 @@
 			<h1>Achats</h1>
 		</div>
 		<div class="btn_panier">
-			<button class="btn btn-primary pull-rightyy">Achèter</button>
+			<button type="button" class="btn btn-primary btn-rounded">Achèter</button>
 		</div>
 	</div>
 </template>
@@ -29,6 +29,7 @@ export default {
 </script>
 <style scoped>
 	.btn_panier{
+		margin-right: 100px;
 		position: relative;
 		float: right;
 	}

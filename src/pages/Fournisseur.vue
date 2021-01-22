@@ -1,16 +1,16 @@
 <template>
 	<div class="parent">
 		<div>
-			<h1>Ventes</h1>
+			<h1>Fournisseur</h1>
 		</div>
 		<div class="btn_panier">
-			<button type="button" class="btn btn-primary btn-rounded">Vendre</button>
+			<button type="button" class="btn btn-primary btn-rounded">Ajouter</button>
 		</div>
 	</div>
 </template>
 <script>
 export default {
-  name: 'Vente',
+  name: 'Fournisseur',
   created() {
 
   },
