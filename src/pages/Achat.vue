@@ -6,11 +6,16 @@
 		<div class="btn_panier">
 			<button type="button" class="btn btn-primary btn-rounded">Achèter</button>
 		</div>
+		<div class="table">
+			<StockTable/>
+		</div>
 	</div>
 </template>
 <script>
+import StockTable from '../components/Achat_records_table';
 export default {
-  name: 'Achat',
+  components:{ StockTable},
+  name: 'Achat', 
   created() {
 
   },
@@ -28,6 +33,10 @@ export default {
 	
 </script>
 <style scoped>
+.table{
+	margin-left: 2px;
+	padding-left: 300px;
+}
 	.btn_panier{
 		margin-right: 100px;
 		position: relative;

@@ -1,6 +1,7 @@
 <template>
   <div>
     <table class="table table-striped table-responsive-md btn-table">
+
       <thead>
         <tr>
           <th>id</th>
@@ -55,7 +56,7 @@
 
 <script>
 export default {
-  name: "Sells_records_table",
+  name: "Achat_records_table",
   created() {},
   data() {
     return {};

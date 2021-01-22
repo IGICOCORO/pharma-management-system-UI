@@ -1,6 +1,6 @@
-/*eslint no-undef: "error"*/
 <template>
-  <section class="container-fluid">
+  <div class="login">
+     <section class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-lg-3 hagati">
         <div class="login-panel bg-white text-left">
@@ -37,6 +37,7 @@
       </div>
     </div>
   </section>
+  </div>
 </template>
 
 <script>
@@ -55,6 +56,9 @@ export default {
 </script>
 
 <style scoped>
+.login{
+  margin-left: 300px;
+}
 label {
   font-family: "Kaushan Script", cursive;
 }
