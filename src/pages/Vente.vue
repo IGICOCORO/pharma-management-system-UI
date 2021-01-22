@@ -6,15 +6,16 @@
 		<div class="btn_panier">
 			<button type="button" class="btn btn-primary btn-rounded">Vendre</button>
 		</div>
-		<div class="data-table">
-			
+		<div class="table">
+			<SellsTable/>
 		</div>
 	</div>
 </template>
 <script>
-//import Sells from '../componnents/sells_records_table';
+import SellsTable from '../components/Sells_records_table';
 export default {
-  name: 'Vente',
+  components:{ SellsTable},
+  name: 'Vente', 
   created() {
 
   },
@@ -32,9 +33,13 @@ export default {
 	
 </script>
 <style scoped>
-	.btn_panier{
-		margin-right: 100px;
-		position: relative;
-		float: right;
-	}
+.table{
+	margin-left: 2px;
+	padding-left: 300px;
+}
+.btn_panier{
+	margin-right: 100px;
+	position: relative;
+	float: right;
+}
 </style>

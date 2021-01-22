@@ -6,11 +6,16 @@
 		<div class="btn_panier">
 			<button type="button" class="btn btn-primary btn-rounded">Ajouter</button>
 		</div>
+		<div class="table">
+			<MutualiteTable/>
+		</div>
 	</div>
 </template>
 <script>
+import MutualiteTable from '../components/mutualite_records_table';
 export default {
-  name: 'Mutualite',
+  components:{ MutualiteTable},
+  name: 'Mutualite', 
   created() {
 
   },
@@ -28,9 +33,13 @@ export default {
 	
 </script>
 <style scoped>
-	.btn_panier{
-		margin-right: 100px;
-		position: relative;
-		float: right;
-	}
+.table{
+	margin-left: 2px;
+	padding-left: 300px;
+}
+.btn_panier{
+	margin-right: 100px;
+	position: relative;
+	float: right;
+}
 </style>

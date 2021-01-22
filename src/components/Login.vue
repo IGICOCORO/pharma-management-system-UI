@@ -58,6 +58,7 @@ export default {
 <style scoped>
 .login{
   margin-left: 300px;
+  height: 20px;
 }
 label {
   font-family: "Kaushan Script", cursive;
@@ -79,6 +80,7 @@ fieldset {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
+  height: 400px;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -89,7 +91,7 @@ fieldset {
   box-shadow: 5px 1px 1px #0078ff;
 }
 button {
-  border-radius: 5%;
+  border-radius: 3%;
 }
 .widget {
   margin: 0;

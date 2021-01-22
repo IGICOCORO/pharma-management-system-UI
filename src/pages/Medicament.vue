@@ -6,10 +6,15 @@
 		<div class="btn_panier">
 			<button type="button" class="btn btn-primary btn-rounded">Ajouter</button>
 		</div>
+		<div class="table">
+			<MedicamentTable/>
+		</div>
 	</div>
 </template>
 <script>
+import MedicamentTable from '../components/Medicament_records_table';
 export default {
+  components:{ MedicamentTable},
   name: 'Medicament',
   created() {
 
@@ -28,9 +33,13 @@ export default {
 	
 </script>
 <style scoped>
-	.btn_panier{
-		margin-right: 100px;
-		position: relative;
-		float: right;
-	}
+.table{
+	margin-left: 2px;
+	padding-left: 300px;
+}
+.btn_panier{
+	margin-right: 100px;
+	position: relative;
+	float: right;
+}
 </style>

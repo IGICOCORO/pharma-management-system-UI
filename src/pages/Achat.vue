@@ -37,9 +37,9 @@ export default {
 	margin-left: 2px;
 	padding-left: 300px;
 }
-	.btn_panier{
-		margin-right: 100px;
-		position: relative;
-		float: right;
-	}
+.btn_panier{
+	margin-right: 100px;
+	position: relative;
+	float: right;
+}
 </style>

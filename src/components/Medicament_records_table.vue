@@ -1,6 +1,7 @@
 <template>
   <div>
     <table class="table table-striped table-responsive-md btn-table">
+
       <thead>
         <tr>
           <th>id</th>
@@ -55,7 +56,7 @@
 
 <script>
 export default {
-  name: "Sells_records_table",
+  name: "Medicament_records_table",
   created() {},
   data() {
     return {};
@@ -65,14 +66,4 @@ export default {
 };
 </script>
 
-<style  scoped>
-  .table{
-  margin-left: 2px;
-  padding-left: 300px;
-}
-  .btn_panier{
-    margin-right: 100px;
-    position: relative;
-    float: right;
-  }
-</style>
+<style  scoped></style>

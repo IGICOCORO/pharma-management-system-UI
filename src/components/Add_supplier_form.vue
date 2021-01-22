@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'Add_supplier',
+  name: 'Add_supplier_form',
   created() {
 
   },
