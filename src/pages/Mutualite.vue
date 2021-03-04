@@ -6,8 +6,8 @@
 		<div class="btn_panier">
 			<button type="button" class="btn btn-primary btn-rounded">Ajouter</button>
 		</div>
-		<div class="table">
-			 <div>
+				<div class="table">
+<div>
     <table class="table table-striped table-responsive-md btn-table">
 
       <thead>
@@ -63,7 +63,7 @@
 		</div>
 	</div>
 </template>
-<script>;
+<script>
 export default {
  
   name: 'Mutualite', 

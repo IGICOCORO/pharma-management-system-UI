@@ -7,7 +7,7 @@
 			<button type="button" class="btn btn-primary btn-rounded">Ajouter</button>
 		</div>
 		<div class="table">
-			 <div>
+<div>
     <table class="table table-striped table-responsive-md btn-table">
 
       <thead>
@@ -65,7 +65,6 @@
 </template>
 <script>
 export default {
-  
   name: 'Fournisseur',
   created() {
 
