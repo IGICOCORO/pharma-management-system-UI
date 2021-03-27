@@ -12,6 +12,7 @@
 
   
     <!-- Right elements -->
+    <div class="topbar"> 
     <ul class="navbar-nav flex-row">
       <li class="nav-item me-3 me-lg-1">
         <a class="nav-link d-sm-flex align-items-sm-center" href="#">
@@ -25,26 +26,15 @@
           <strong class="d-none d-sm-block ms-1">GBstallman</strong>
         </a>
       </li>
-      <li class="nav-item dropdown me-3 me-lg-1">
-        <a
-          class="nav-link dropdown-toggle hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <i class="fas fa-power-off fa-lg"></i>
+      <li class="">
+        <a >
+          <i class="fa fa-power-off">Logout</i>
         </a>
-        <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuLink"
-        >
-          <li><a class="dropdown-item" href="#">Logout</a></li>
-        </ul>
+        
       </li>
     </ul>
     <!-- Right elements -->
+    </div>
   </div>
 </nav>
 <!-- Navbar -->

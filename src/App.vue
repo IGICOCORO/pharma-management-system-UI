@@ -4,13 +4,13 @@
         <SideBar/>
         <TopBar/>
         <router-view />
-         <div class="loggout" @click="logout">
-      </div>
-   </div>
+        <div class="loggout" @click="logout"></div>
+     </div>
    <div v-else>
       <Login @connected="performLogin"/>
-    </div>
   </div>
+  </div>
+
    
 </template>
 <script>
